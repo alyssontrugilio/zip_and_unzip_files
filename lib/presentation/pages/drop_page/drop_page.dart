@@ -52,7 +52,9 @@ class _DropPageState extends State<DropPage> {
                     height: 400,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: highlighted ? Colors.red : colors,
+                      color: highlighted
+                          ? const Color.fromARGB(255, 136, 132, 131)
+                          : colors,
                     ),
                     child: Stack(
                       children: [
